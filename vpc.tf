@@ -80,4 +80,4 @@ resource "aws_route_table_association" "b" {
   route_table_id = aws_route_table.tcw_rt.id
 }
 
-#This VPC file is created separately to manage the VPC and its related resources independently.
+#This VPC code is working fine.
